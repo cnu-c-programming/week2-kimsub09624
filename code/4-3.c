@@ -5,6 +5,11 @@ int main() {
 	scanf("%d", &x);
 	
 	int div = 2;
+	
+	if(x == 1) {
+		printf("false");
+		return 0;
+	}
 
 	while(div <= x/2) {
 		int rem = x % div;
@@ -19,4 +24,3 @@ int main() {
 	printf("true");
 	return 0;
 }
-
